@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+	@media screen and (max-width: 730px){
+		.btn {
+			width:100%;
+			margin:0;
+		}
+	}
+	
+	@media screen and (max-width: 1199px) {
+		.MySlider
+		{
+			margin-top:230px !important;
+		}
+		.MySliderT
+		{
+			margin-top:230px;
+		}
+	}
+	
+	@media screen and (min-width: 800px)
+	{
+		.MySlider {
+			right: 5% !important;
+			left: 5% !important;
+			margin-top:150px;
+		}
+	}
+	
+	@media screen and (min-width: 890px) {
+		.MySlider
+		{
+			right:10% !important;
+			left:10% !important;
+			margin-top:150px;
+			
+		}
+		.MySliderT
+		{
+			margin-top:150px;
+		}
+	}
+	
+	@media screen and (min-width: 1090px) {
+		.MySlider
+		{
+			right:13% !important;
+			left:13% !important;
+			margin-top:150px;	
+		}	
+	}
+	
+	@media screen and (min-width: 889px) {
+		.Lower
+		{
+			margin-top:45px;
+		}
+	}
+	
+	@media screen and (min-width: 920px) {
+		.Lower
+		{
+			margin-top:75px;		
+		}
+	}
+	
+	@media screen and (min-width: 991px) {
+		.Lower
+		{
+			margin-top:-25px;		
+		}
+	}
+	
+	@media screen and (min-width: 1050px) {
+		.Lower
+		{
+			margin-top:0px;		
+		}
+	}
+	
+	@media screen and (min-width: 1200px) {
+		.Lower
+		{
+			margin-top:-160px;		
+		}
+	}
+	
+	.Lower
+	{
+		background-color:white;
+		position:relative;
+	}
+	
+	.TopImageImage
+	{
+		width:100%;
+	}

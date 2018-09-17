@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.LowerLogin
+{
+	background:pink;
+	margin-top:170px;
+}
+
+.LoginForm
+{
+	padding-top:10%;
+}
+
+.myBtn
+{
+	padding:7px 25px 7px 25px;
+}

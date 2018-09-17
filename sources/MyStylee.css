@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+
+	.page
+	{
+		margin-top:20px;
+	}
+	
+	.marginNav
+	{
+		margin-top:30px;
+	}
+	
+	.rotPhone
+	{
+		transform:rotate(260deg);
+	}
+	
+	.rotSearch
+	{
+		transform:rotate(90deg);
+	}
+	
+	.helpIcon
+	{
+		background-image:url(../images/help.png);
+		background-size: 16px 16px;
+		height: 16px;
+		width: 16px;
+		margin-bottom: -2px;
+	}
+	#myNavBar li
+	{
+		padding:-10px
+	}
+	
+	.MySlider
+	{
+		right:0;
+		left:0;
+		position:fixed;	
+		//z-index:-1;
+	}
+	.MySliderT
+	{
+		right:0;
+		left:0;
+		position:relative;
+		margin-bottom:5%;
+		opacity:0;
+		z-index:-10;
+	}
+	.Lower
+	{
+		background-color:white;
+		position:relative;
+	}
+	.SearchInnerDiv
+	{
+		margin:0;
+	}
+	.navbardiv
+	{
+		padding-left:5%;
+		padding-right:5%;
+		padding-top:5%;
+		background-color:white;
+	}
+	
+	.MyNav
+	{
+		box-shadow:1px -4px 30px black;
+	}
+	
+	.Lower
+	{
+		background-color:white;
+		position:relative;
+	}
+	
+	.TopImageImage
+	{
+		width:100%;
+	}
+	
+	.TopRatedHeading h1
+	{
+		text-align:center;
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size:400% !important;
+		color: white;
+    	text-shadow: 3px 3px 9px red;
+	}
+	.TopRatedInnerDiv
+	{
+		padding: 5px;
+    	border: 1px solid;
+    	border-radius: 10px;
+		box-shadow:2px 2px 5px black;
+		text-align:center;
+	}
+	.TopRatedInnerDiv:hover
+	{
+		padding: 5px;
+    	border: 1px solid;
+    	border-radius: 15px;
+		box-shadow:2px 2px 5px black;
+		text-align:center;
+	}
+	.TopRatedInnerDiv img
+	{
+		border-radius:5px;
+	}
+	
+	
+.FooterRaper
+{
+	background:url(../images/footer_pattern.png) repeat;
+	position:absolute;
+	z-index:10;
+	width:100%;
+}
+.Footer
+{
+	color:white;
+}
+.Footer .row
+{
+	padding:45px 0;
+}
+.Footer h3
+{
+	font-size:27px;
+}
+.Footer p
+{
+	padding:10% 0 0 0;
+	font-weight:lighter;
+	color: #939393;
+}
+.Footer a
+{
+	color:#6CCC42;
+}
+.Tweets p:last-child
+{
+	padding:0;
+}
+.Tweets a:last-child
+{
+	color:#939393;
+}
+.MailingList .form-inline
+{
+	width:100%;
+}
+.MailingList .form-group .form-control
+{
+	width:100%;
+}
+.MailingList .btn
+{
+	background:#6CCC42;
+	font-size: 12px;
+    width: 140px;
+    height: 40px;
+	margin-top:10px;
+	border:0;
+}
+
+.MailingList .btn:hover
+{
+	background-color:transparent;
+	border:1px solid white;
+}
+
+.socialicon
+{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	margin-right:5px;
+}
+.socialicon_twitter
+{
+	background:url(../images/twitter.png) no-repeat;
+}
+.socialicon_twitter:hover
+{
+	background:none;
+	background:url(../images/twitter_a.png) no-repeat;
+}
+.socialicon_facebook
+{
+	background:url(../images/facebook.png) no-repeat;
+}
+.socialicon_facebook:hover
+{
+	background:none;
+	background:url(../images/facebook_a.png) no-repeat;
+}
+.socialicon_google
+{
+	background:url(../images/google.png) no-repeat;
+}
+.socialicon_google:hover
+{
+	background:none;
+	background:url(../images/google_a.png) no-repeat;
+}
+.socialicon_mail
+{
+	background:url(../images/mail.png) no-repeat;
+}
+.socialicon_mail:hover
+{
+	background:url(../images/mail_a.png) no-repeat;
+}
+.Footer hr
+{
+	border-top:1px solid #4e4e4e;
+	margin:40px 0 0 0;
+}
+.Footer .text-center
+{
+	padding:40px 0;
+	margin:0;
+}
+.lineW {
+    width: 180px;
+    border-bottom: 1px solid #939393;
+    margin-top: 15px;
+}
